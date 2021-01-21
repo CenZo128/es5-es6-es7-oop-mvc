@@ -1,7 +1,5 @@
 /**
-    ALAY O'METER
-    SEBERAPA ALAY KAH ANDA?
-
+    ALAY O'METER - SEBERAPA ALAY KAH ANDA? 
 
     Setelah meneliti dengan waktu yang cukup singkat, ilmuwan dari Perancis telah menemukan pola untuk emngetahui seberapa alaykah chat seseorang.
     - Karakter spasi tidak dihitung dalam sebuah kalimat
@@ -22,7 +20,7 @@
 
     BUAT PSEUDOCODE DARI SOAL DI ATAS, LALU BUAT SOLUSI CODING NYA
 */
-
+ 
 function calculateAlay(input) {
     // code here
 
