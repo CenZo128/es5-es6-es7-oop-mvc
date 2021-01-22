@@ -20,4 +20,18 @@
 
     BUAT PSEUDOCODE DARI SOAL DI ATAS, LALU BUAT SOLUSI CODING NYA
 */
- 
+
+function calculateAlay(input) {
+    // code here
+
+     
+}
+
+let input = [
+    'Lucu sek@l! y@ng mul!@, h@h@',
+    'Hai, @ku g@nggu k@mu gak'
+]
+
+console.log(calculateAlay(input))
+
+module.exports = calculateAlay;

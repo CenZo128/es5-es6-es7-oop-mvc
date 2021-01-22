@@ -20,7 +20,7 @@
 
     BUAT PSEUDOCODE DARI SOAL DI ATAS, LALU BUAT SOLUSI CODING NYA
 */
- 
+
 function calculateAlay(input) {
     // code here
 
