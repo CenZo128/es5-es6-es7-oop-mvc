@@ -8,36 +8,36 @@
  * Hasil yang di harapkan -> 79, karena 2 + 77 = 79
  * 
  * let prices = [10, 30, 5, 500]
- * Hasil yang di harapkan -> 510, karena 10 + 500
+ * Hasil yang di harapkan -> 505, karena 5 + 500
  * 
  * DIRECTIONS
  * ------------
- * Buatlah sebuah function yang memiliki 1 parameter scores berupa array. Lalu tentukan jumlah 2 harga terendah dan harga tertinggi dari scores yang diberikan.
+ * Buatlah sebuah function yang memiliki 1 parameter prices berupa array. Lalu tentukan jumlah 2 harga terendah dan harga tertinggi dari prices yang diberikan.
  *  
  * RULES : Tidak boleh menggunakan built in function!!
  * */
 
-function sumScores(scores) {
+function sumPrices(prices) {
     // code disini
-    let max = scores[0];
-    let min = scores[0];
+    let max = -Infinity; // mencari harga max
+    let min = Infinity; // mencari harga min
 
-    for (let i = 0; i < scores.length; i++) {
-        if (max < scores[i]) {
-            max = scores[i]
+    for (let i = 0; i < prices.length; i++) {
+        if (max < prices[i]) {
+            max = prices[i]
         }
-        if (min > scores[i]) {
-            min = scores[i]
+        if (min > prices[i]) {
+            min = prices[i]
         } 
     }
 
     return max + min
 }
 
-console.log(sumScores([19, 5, 42, 2, 77]))
-// 79
+console.log(sumPrices([19000, 5000, 42000, 2000, 77000]))
+// 79000
 
-console.log(sumScores([10, 30, 5, 500]))
-// 510
+console.log(sumPrices([10000, 30000, 5000, 500000]))
+// 505000
 
-module.exports = sumScores
+module.exports = sumPrices
